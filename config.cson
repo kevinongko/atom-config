@@ -14,6 +14,7 @@
       "metrics"
       "wrap-guide"
       "welcome"
+      "linter-stylint"
     ]
     ignoredNames: [
       ".git"
@@ -24,17 +25,16 @@
       "Thumbs.db"
       ".swp"
     ]
-    packagesWithKeymapsDisabled: []
+    packagesWithKeymapsDisabled: [
+      "tree-view"
+    ]
     projectHome: "/Users/kevin/Projects"
     telemetryConsent: "no"
-    themes: [
-      "native-ui"
-      "firewatch-syntax"
-    ]
     useCustomTitleBar: true
   editor:
     fontFamily: "Fira Code"
     fontSize: 12
+    scrollPastEnd: true
     tabType: "soft"
   "ex-mode": {}
   "exception-reporting":
@@ -45,12 +45,26 @@
   "linter-eslint":
     lintHtmlFiles: true
     useGlobalEslint: true
+  "linter-php": {}
+  "linter-stylint": {}
+  "linter-tidy": {}
   "project-manager": {}
   "project-plus":
     showPath: true
   "tree-view":
     hideIgnoredNames: true
+    hideVcsIgnoredFiles: true
 ".blade.html.php.text":
   editor:
     commentEnd: " --}}"
     commentStart: "{{-- "
+".css.source.stylus":
+  editor:
+    autoIndentOnPaste: false
+    tabLength: 4
+".html.php.text":
+  editor:
+    tabLength: 4
+".js.source":
+  editor:
+    tabLength: 2
