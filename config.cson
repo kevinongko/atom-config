@@ -1,0 +1,56 @@
+"*":
+  core:
+    disabledPackages: [
+      "exception-reporting"
+      "language-c"
+      "language-clojure"
+      "language-csharp"
+      "language-java"
+      "language-objective-c"
+      "language-perl"
+      "language-python"
+      "language-ruby"
+      "language-ruby-on-rails"
+      "metrics"
+      "wrap-guide"
+      "welcome"
+    ]
+    ignoredNames: [
+      ".git"
+      ".hg"
+      ".svn"
+      ".DS_Store"
+      "._*"
+      "Thumbs.db"
+      ".swp"
+    ]
+    packagesWithKeymapsDisabled: []
+    projectHome: "/Users/kevin/Projects"
+    telemetryConsent: "no"
+    themes: [
+      "native-ui"
+      "firewatch-syntax"
+    ]
+    useCustomTitleBar: true
+  editor:
+    fontFamily: "Fira Code"
+    fontSize: 12
+    tabType: "soft"
+  "ex-mode": {}
+  "exception-reporting":
+    userId: "9c319086-f1fa-0b91-c0c2-180772415010"
+  "flatwhite-syntax":
+    ebmedded: "Full"
+  linter: {}
+  "linter-eslint":
+    lintHtmlFiles: true
+    useGlobalEslint: true
+  "project-manager": {}
+  "project-plus":
+    showPath: true
+  "tree-view":
+    hideIgnoredNames: true
+".blade.html.php.text":
+  editor:
+    commentEnd: " --}}"
+    commentStart: "{{-- "
