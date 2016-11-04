@@ -34,3 +34,7 @@
 '.platform-darwin':
   'F4': 'tree-view:toggle-focus',
   'F5': 'tree-view:toggle'
+
+'atom-text-editor.autocomplete-active':
+  'tab': 'autocomplete-plus:move-down'
+  'enter': 'autocomplete-plus:confirm'

@@ -1,4 +1,7 @@
 "*":
+  "autocomplete-plus":
+    confirmCompletion: "enter"
+    useCoreMovementCommands: false
   core:
     disabledPackages: [
       "exception-reporting"
@@ -30,6 +33,10 @@
     ]
     projectHome: "/Users/kevin/Projects"
     telemetryConsent: "no"
+    themes: [
+      "one-light-ui"
+      "base16-tomorrow-light-theme"
+    ]
     useCustomTitleBar: true
   editor:
     fontFamily: "Fira Code"
@@ -53,7 +60,6 @@
     showPath: true
   "tree-view":
     hideIgnoredNames: true
-    hideVcsIgnoredFiles: true
 ".blade.html.php.text":
   editor:
     commentEnd: " --}}"
