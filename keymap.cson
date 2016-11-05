@@ -8,3 +8,13 @@
 
 'atom-text-editor.vim-mode.visual-mode':
   'space c i': 'editor:toggle-line-comments'
+
+'.fuzzy-finder atom-text-editor[mini]':
+  'cmd-v': 'pane:split-right'
+  'cmd-s': 'pane:split-down'
+
+'atom-text-editor.vim-mode:not(.insert-mode)':
+  'cmd-l': 'window:focus-pane-on-right'
+  'cmd-h': 'window:focus-pane-on-left'
+  'cmd-k': 'window:focus-pane-above'
+  'cmd-j': 'window:focus-pane-below'

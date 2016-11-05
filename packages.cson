@@ -2,6 +2,7 @@
   'docblockr'
   'ex-mode'
   'file-icons'
+  'git-control'
   'github-atom-light-syntax'
   'language-blade'
   'language-vue'
