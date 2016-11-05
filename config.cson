@@ -17,7 +17,6 @@
       "metrics"
       "wrap-guide"
       "welcome"
-      "linter-stylint"
     ]
     ignoredNames: [
       ".git"
