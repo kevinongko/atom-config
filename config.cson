@@ -48,6 +48,7 @@
     userId: "9c319086-f1fa-0b91-c0c2-180772415010"
   "flatwhite-syntax":
     ebmedded: "Full"
+  "git-plus": {}
   linter: {}
   "linter-eslint":
     lintHtmlFiles: true
