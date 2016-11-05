@@ -34,8 +34,8 @@
     projectHome: "/Users/kevin/Projects"
     telemetryConsent: "no"
     themes: [
-      "one-light-ui"
-      "base16-tomorrow-light-theme"
+      "one-dark-ui"
+      "base16-tomorrow-dark-theme"
     ]
     useCustomTitleBar: true
   editor:
