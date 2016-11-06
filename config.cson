@@ -17,6 +17,10 @@
       "metrics"
       "wrap-guide"
       "welcome"
+      "background-tips"
+      "language-go"
+      "go-to-line"
+      "styleguide"
     ]
     ignoredNames: [
       ".git"
@@ -29,14 +33,16 @@
     ]
     packagesWithKeymapsDisabled: [
       "tree-view"
+      "sort-lines"
     ]
     projectHome: "/Users/kevin/Projects"
     telemetryConsent: "no"
     themes: [
-      "one-dark-ui"
-      "base16-tomorrow-dark-theme"
+      "native-ui"
+      "github-atom-light-syntax"
     ]
     useCustomTitleBar: true
+  docblockr: {}
   editor:
     fontFamily: "Fira Code"
     fontSize: 12
@@ -47,7 +53,9 @@
     userId: "9c319086-f1fa-0b91-c0c2-180772415010"
   "flatwhite-syntax":
     ebmedded: "Full"
+  "fuzzy-finder": {}
   "git-plus": {}
+  "grammar-selector": {}
   linter: {}
   "linter-eslint":
     lintHtmlFiles: true
@@ -60,6 +68,13 @@
     showPath: true
   "tree-view":
     hideIgnoredNames: true
+    hideVcsIgnoredFiles: true
+  "vim-mode-plus":
+    highlightSearch: true
+    incrementalSearch: true
+    showCursorInVisualMode: false
+    statusBarModeStringStyle: "long"
+    useSmartcaseForSearch: true
 ".blade.html.php.text":
   editor:
     commentEnd: " --}}"
